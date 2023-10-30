@@ -1,0 +1,54 @@
+.vacanciesHeading{
+display: flex;
+justify-content: center;
+color: #fff;
+}
+
+#dropdown-menu-align-right
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #084460;
+}
+
+#dropdown-menu-align-right:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color:  #0C222C ;
+}
+
+#delete
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #be1212;
+}
+
+#delete:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color:  #940000 ;
+}
+
+@media screen and (max-width: 594px) {
+    .vacanciesHeading{
+        justify-content: flex-start;
+       
+      }
+    }
+
+    @media screen and (max-width: 403px) {
+        .vacanciesHeading{
+            visibility: hidden;
+            /* margin-top: 1em; */
+            /* justify-content: flex-start; */
+           
+          }
+        }
+    /* 403 */

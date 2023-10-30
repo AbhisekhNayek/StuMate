@@ -1,0 +1,106 @@
+/* Login.css */
+
+.loginMain {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 3px solid #00aeff;
+  border-radius: 1em;
+  width: 350px;
+  height: 500px;
+}
+
+.compLogo {
+  display: flex;
+  margin: 0 auto;
+  width: 5em;
+  height: 5em;
+  border-radius: 4em;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.LoginForm {
+  width: 20em;
+  height: 24em !important;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#email {
+  background-color: #ffffff2e;
+  color: #252424;
+  font-family: sans-serif;
+}
+
+.inputerror {
+  display: flex;
+  color: red;
+}
+
+#signin {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: beige;
+  background-color: #114b66;
+  border: none;
+  border-radius: 0.5em; /* Added border radius */
+}
+
+#signin:hover {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: beige;
+  background-color: #0C222C;
+}
+
+#signup {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #127de9;
+  text-decoration: none;
+}
+
+#signup:hover {
+  color: #0C222C;
+}
+
+/* Your existing styles */
+
+.rememberMeCheckbox {
+  margin-top: 10px;
+}
+
+/* Update your Login.css file */
+
+.loginLinks {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+#forgotPasswordLink {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #127de9;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+
+
+#forgotPasswordLink:hover {
+  color: #0C222C;
+}
+
+.createAccountLink {
+  margin-top: 20px;
+}

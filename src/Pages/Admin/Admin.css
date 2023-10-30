@@ -1,0 +1,38 @@
+/* Admin.css */
+
+body {
+    font-family: 'ParagrpgFont', sans-serif; /* Use the appropriate font for Paragrpg */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  nav {
+    background-color: #0066cc; /* Paragrpg primary color */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav ul li a.active {
+    border-bottom: 2px solid #fff; /* White bottom border for active link */
+  }
+  
+  /* Add more styles as needed for content and other components */
+  

@@ -1,0 +1,78 @@
+
+/* Styles for the 'mr-auto' class */
+.mr-auto {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styles for links within the 'mr-auto' class */
+.mr-auto a {
+    text-decoration: none !important;
+}
+
+/* Styles for the logout button */
+.logout {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #084460;
+}
+
+/* Hover styles for the logout button */
+.logout:hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #0C222C;
+}
+
+/* Media query for screens with a maximum width of 425px */
+@media screen and (max-width: 425px) {
+    /* Styles for the 'SignupMain' class */
+    .SignupMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 1em;
+        width: 400px;
+        height: 10em !important;
+        margin: 0 auto;
+    }
+
+    /* Styles for the 'Headerheading' class */
+    .Headerheading {
+        font-size: 1em;
+    }
+}
+
+/* Media query for screens with a maximum width of 368px */
+@media screen and (max-width: 368px) {
+    /* Styles for the 'SignupMain' class */
+    .SignupMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 1em;
+        width: 400px;
+        height: 10em !important;
+        margin: 0 auto;
+    }
+
+    /* Styles for the 'Headerheading' class */
+    .Headerheading {
+        font-size: 1em;
+    }
+
+    /* Additional styles for screens with a maximum width of 368px */
+    .basic-navbar-nav {
+        background-color: red;
+        width: 2em;
+    }
+}
+

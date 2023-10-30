@@ -1,0 +1,63 @@
+.ModalMain{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    /* align-items: flex-end; */
+    /* margin-top: -2.2em; */
+    
+}
+#post
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #084460;
+}
+
+#post:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color:  #0C222C ;
+}
+
+#unpost
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: #a60d0d;
+}
+
+#unpost:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color:  #7d0404 ;
+}
+
+@media screen and (max-width: 403px) {
+    .ModalMain{
+        align-items: center;       
+      }
+}
+
+
+.btn-secondary {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0C222C; 
+  border: 2px solid #0C222C; 
+  margin-right: 10px; 
+}
+
+.btn-secondary:hover {
+  background-color: #144c66; 
+  color: #ffffff; 
+}
+
+.resume{
+    margin-top: 10px;
+}

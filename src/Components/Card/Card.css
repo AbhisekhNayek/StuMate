@@ -1,0 +1,60 @@
+/* Styles for the dropdown toggle button */
+.dropdown-toggle {
+    display: block;
+    width: 100%;
+}
+
+/* Styles for individual dropdown items */
+.dropdown-item {
+    display: block;
+}
+
+/* Styles for the main card container */
+.card {
+    width: 18em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-right: 0.4em;
+    margin-left: 0.2em;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-top: 1em;
+}
+
+/* Styles for the card body */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 20em;
+    padding: 1em; 
+}
+
+/* Styles for the card title */
+.card-title {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+/* Styles for the card subtitle */
+.card-subtitle {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+/* Styles for the main text content in the card */
+.card-text {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+/* Styles for the card footer */
+.card-footer {
+    margin-top: auto;
+    background-color: #ddd;
+    padding: 0.5em;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,43 @@
+/* Profile.css */
+
+.ProfileMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1em;
+  width: 400px;
+  margin-top: 6em;
+  height: 500px !important;
+}
+
+.ProfileForm {
+  width: 20em;
+}
+
+.save-btn{
+  font-weight: 500;
+  color: beige;
+  background-color: #0C222C;
+}
+
+.save-btn:hover{
+  font-weight: 500;
+  color: beige;
+  background-color: #144c66;
+}
+
+
+.ProfileMain .btn-secondary {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0C222C; 
+  border: 2px solid #0C222C; 
+  margin-right: 8px; 
+}
+
+.ProfileMain .btn-secondary:hover {
+  background-color: #144c66; 
+  color: #ffffff; 
+}

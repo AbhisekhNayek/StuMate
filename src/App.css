@@ -1,0 +1,18 @@
+.App {
+  background-color: #0C222C;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 400px) {
+  .App {
+    background-color: #0C222C;
+    min-height: 12em !important;
+
+  }
+}

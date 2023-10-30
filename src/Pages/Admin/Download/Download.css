@@ -1,0 +1,38 @@
+/* Download.css */
+.download-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .center-button {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  /* Download.css */
+.download-container {
+  display: flex;
+}
+
+.half-screen {
+  flex: 1;
+  padding: 10px;
+}
+
+.student-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  margin-bottom: 8px;
+}
