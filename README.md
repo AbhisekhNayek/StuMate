@@ -100,5 +100,3 @@ Feel free to contribute to this project. Please follow our [contribution guideli
 
 This project is licensed under the [MIT License](LICENSE.md).
 ```
-
-Remember to replace the placeholder information (e.g., `your-username`, `your_mongodb_uri`, and Firebase details) with your actual project-specific details. Additionally, consider adding screenshots, a demo link, and more detailed instructions if needed to make it easier for others to use and contribute to your project.
