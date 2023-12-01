@@ -25,7 +25,6 @@ StuMate is a web application built using the MERN (MongoDB, Express.js, React, N
 Before you begin, ensure you have met the following requirements:
 
 - Node.js and npm installed.
-- MongoDB set up and running.
 - Firebase project for authentication and data storage.
 - Set Up Dependencies
 ## Getting Started
@@ -39,30 +38,22 @@ Before you begin, ensure you have met the following requirements:
 2. Change to the project directory:
 
    ```bash
-   cd stumate
+   cd StuMate 
    ```
 
-3. Install server dependencies:
+3. Install dependencies:
 
    ```bash
-   cd server
-   npm install
-   ```
-
-4. Install client dependencies:
-
-   ```bash
-   cd ../client
+   cd StuMate
    npm install
    ```
 
 ## Configuration
 
-1. Create a `.env` file in the `server` directory with the following configuration:
+1. Create a `firebase.js` file in the `Stumate` directory with the following configuration:
 
    ```env
-   PORT=3001
-   MONGODB_URI=your_mongodb_uri
+   PORT=3000
    FIREBASE_API_KEY=your_firebase_api_key
    FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
    FIREBASE_DATABASE_URL=your_firebase_database_url
@@ -76,21 +67,16 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-1. Start the server:
+1. Start the Application:
 
    ```bash
-   cd server
+   cd StuMate
    npm start
+    or
+   yarn start
    ```
 
-2. Start the client:
-
-   ```bash
-   cd ../client
-   npm start
-   ```
-
-3. Access the application at http://localhost:3000 in your web browser.
+2. Access the application at http://localhost:3000 in your web browser.
 
 ## Contributing
 
