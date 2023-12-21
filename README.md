@@ -2,6 +2,8 @@
 
 StuMate is a web application built using the MERN (MongoDB, Express.js, React, Node.js) stack with Firebase integration. It serves as a University Placement Management System and provides students with tools for generating resumes, finding placement opportunities, and more.
 
+![GitHub stars](https://img.shields.io/github/stars/AbhisekhNayek/StuMate.svg?style=flat-square)
+
 ## Table of Contents
 
 - [Features](#features)
